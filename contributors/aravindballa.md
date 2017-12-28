@@ -1,3 +1,3 @@
-## Aravind Balla
+## Bugs Bunny
 
-<img src="https://avatars2.githubusercontent.com/u/8036315?s=460&v=4" width="100"/>
+<img src="https://vignette.wikia.nocookie.net/characters/images/1/15/Bugs.jpg/revision/latest?cb=20110224072532" width="200"/>
