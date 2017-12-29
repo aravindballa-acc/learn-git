@@ -30,7 +30,7 @@ public class Hello {
 
     public static void main( String[] args ) {
         Hello h = new Hello();
-        h.helloBunny();
+        //h.helloBunny();
         h.printSukeshDetails();
         Sukesh sukesh=new Sukesh();
         sukesh.printDetails();
@@ -52,5 +52,7 @@ public class Hello {
         d.detailsAmulya();
         Shreya sh = new Shreya();
         sh.print_name();
+        Tarunkumar t=new Tarunkumar();
+        t.print_details();
 	}
 }
