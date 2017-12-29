@@ -1,5 +1,18 @@
 public class Hello {
-	void helloBunny() {
+	void hellosandeep() {
+        System.out.println("Hello sandeep!");
+    }
+    void helloRithvik() {
+        System.out.println("Hello Rithvik!");
+    }
+
+    public static void main( String[] args ) {
+        sandeep h = new sandeep();
+        h.sandeep1();
+        Hello h = new Hello();
+        h.helloBunny();
+        h.helloRithvik();
+    }
         System.out.println("Hello Bunny!");
     }
 
@@ -46,5 +59,7 @@ public class Hello {
 		he.piyush();
 		Yogeshwar yo = new Yogeshwar();
 		yo.returnNothing();
+		DetailsAmulya d=new DetailsAmulya();
+        d.detailsAmulya();
 	}
 }
