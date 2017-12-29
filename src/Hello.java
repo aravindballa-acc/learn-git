@@ -11,7 +11,7 @@ public class Hello {
         h.helloBunny();
         h.helloRithvik();
     }
-		System.out.println("Hello Bunny!");
+		System.out.println("Hello Bugs Bunny!");
 	}
 
 	void helloPiyush() {
