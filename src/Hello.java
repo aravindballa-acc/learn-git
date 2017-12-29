@@ -6,16 +6,7 @@ public class Hello {
         System.out.println("Hello Rithvik!");
     }
 
-    public static void main( String[] args ) {
-        sandeep h = new sandeep();
-        h.sandeep1();
-        Hello h = new Hello();
-        h.helloBunny();
-        h.helloRithvik();
-    }
-        System.out.println("Hello Bunny!");
-    }
-
+    
 
 	void helloPiyush() {
 		System.out.println("Hello Piyush!");
@@ -40,12 +31,12 @@ public class Hello {
 
     public static void main( String[] args ) {
         Hello h = new Hello();
-        h.helloBunny();
+        
         h.printSukeshDetails();
         Sukesh sukesh=new Sukesh();
         sukesh.printDetails();
 		Lokesh l = new Lokesh();
-		h.helloBunny();
+		
 		Tarun tarun = new Tarun();
 		tarun.helloTarun();
 		Raghu r = new Raghu();
