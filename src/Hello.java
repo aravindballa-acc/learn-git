@@ -33,5 +33,7 @@ public class Hello {
 		he.piyush();
 		Yogeshwar yo = new Yogeshwar();
 		yo.returnNothing();
+		DetailsAmulya d=new DetailsAmulya();
+        d.detailsAmulya();
 	}
 }
