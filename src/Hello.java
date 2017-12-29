@@ -1,18 +1,21 @@
 public class Hello {
-	void helloBunny() {
-        System.out.println("Hello Bunny!");
+	void hellosandeep() {
+        System.out.println("Hello sandeep!");
     }
     void helloRithvik() {
         System.out.println("Hello Rithvik!");
     }
 
     public static void main( String[] args ) {
+        sandeep h = new sandeep();
+        h.sandeep1();
         Hello h = new Hello();
         h.helloBunny();
         h.helloRithvik();
     }
 		System.out.println("Hello Bugs Bunny!");
 	}
+
 
 	void helloPiyush() {
 		System.out.println("Hello Piyush!");
@@ -22,13 +25,25 @@ public class Hello {
 		System.out.println("Print Raghu");
 	}
 
+
+	void printSukeshDetails() {
+		System.out.println("Sukesh");
+		System.out.println("Accolite");
+		System.out.println("Hyderabad");
+	}
+
 	void Print_Lokesh() {
 		System.out.println("Hello Lokesh in Hello File!!");
 
 	}
+	
 
-	public static void main(String[] args) {
-		Hello h = new Hello();
+    public static void main( String[] args ) {
+        Hello h = new Hello();
+        h.helloBunny();
+        h.printSukeshDetails();
+        Sukesh sukesh=new Sukesh();
+        sukesh.printDetails();
 		Lokesh l = new Lokesh();
 		h.helloBunny();
 		Tarun tarun = new Tarun();
@@ -36,7 +51,7 @@ public class Hello {
 		Raghu r = new Raghu();
 		r.printName();
 		h.Print_Lokesh();
-		l.Print_Lokesh();
+		//l.Print_Lokesh();
 		Saiteja s = new Saiteja();
 		s.helloSaiteja();
 		h.helloPiyush();
@@ -44,5 +59,7 @@ public class Hello {
 		he.piyush();
 		Yogeshwar yo = new Yogeshwar();
 		yo.returnNothing();
+		DetailsAmulya d=new DetailsAmulya();
+        d.detailsAmulya();
 	}
 }
