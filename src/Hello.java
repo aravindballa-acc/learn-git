@@ -1,5 +1,5 @@
 public class Hello {
-	void hellosandeep() {
+	void hellochunu() {
         System.out.println("Hello sandeep!");
     }
     void helloRithvik() {
@@ -30,7 +30,7 @@ public class Hello {
 
     public static void main( String[] args ) {
         Hello h = new Hello();
-        h.helloBunny();
+        h.hellochunu();
         h.printSukeshDetails();
         Sukesh sukesh=new Sukesh();
         sukesh.printDetails();
