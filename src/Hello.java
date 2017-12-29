@@ -6,6 +6,7 @@ public class Hello {
         System.out.println("Hello Rithvik!");
     }
 
+
 	void helloPiyush() {
 		System.out.println("Hello Piyush!");
 	}
@@ -14,20 +15,32 @@ public class Hello {
 		System.out.println("Print Raghu");
 	}
 
+
+	void printSukeshDetails() {
+		System.out.println("Sukesh");
+		System.out.println("Accolite");
+		System.out.println("Hyderabad");
+	}
+
 	void Print_Lokesh() {
 		System.out.println("Hello Lokesh in Hello File!!");
 
 	}
+	
 
-	public static void main(String[] args) {
-		Hello h = new Hello();
+    public static void main( String[] args ) {
+        Hello h = new Hello();
+        h.helloBunny();
+        h.printSukeshDetails();
+        Sukesh sukesh=new Sukesh();
+        sukesh.printDetails();
 		Lokesh l = new Lokesh();
 		Tarun tarun = new Tarun();
 		tarun.helloTarun();
 		Raghu r = new Raghu();
 		r.printName();
 		h.Print_Lokesh();
-		l.Print_Lokesh();
+		//l.Print_Lokesh();
 		Saiteja s = new Saiteja();
 		s.helloSaiteja();
 		h.helloPiyush();
