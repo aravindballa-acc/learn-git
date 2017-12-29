@@ -27,6 +27,10 @@ public class Hello {
 
 	}
 	
+	void helloBunny() {
+		System.out.println("This is the latest feature for bugs bunny\n");
+	}
+	
 
     public static void main( String[] args ) {
         Hello h = new Hello();
