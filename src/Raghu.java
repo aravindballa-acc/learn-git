@@ -1,5 +1,3 @@
-package com.accolite.miniau;
-
 public class Raghu {
 	public void printName() {
 		System.out.println("Print Raghu");
