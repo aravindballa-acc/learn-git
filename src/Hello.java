@@ -1,9 +1,9 @@
 public class Hello {
-	void helloBunny() {
-        System.out.println("Hello Bunny!");
+	void hellosandeep() {
+        System.out.println("Hello sandeep!");
     }
     public static void main( String[] args ) {
-        Hello h = new Hello();
-        h.helloBunny();
+        sandeep h = new sandeep();
+        h.sandeep1();
     }
 }
