@@ -30,7 +30,6 @@ public class Hello {
 
     public static void main( String[] args ) {
         Hello h = new Hello();
-        h.helloBunny();
         h.printSukeshDetails();
         Sukesh sukesh=new Sukesh();
         sukesh.printDetails();
