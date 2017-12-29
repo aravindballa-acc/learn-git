@@ -53,4 +53,8 @@ public class Hello {
         Shreya sh = new Shreya();
         sh.print_name();
 	}
+	private void helloBunny() {
+		System.out.println("Hello Bunny");
+		
+	}
 }
