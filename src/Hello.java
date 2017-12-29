@@ -3,6 +3,17 @@ public class Hello {
         System.out.println("Hello Bunny!");
     }
 <<<<<<< HEAD
+	void helloPiyush() {
+        System.out.println("Hello Piyush!");
+    }
+    public static void main( String[] args ) {
+        Hello h = new Hello();
+        HelloPiyush he=new HelloPiyush();
+        h.helloBunny();
+        h.helloPiyush();
+        he.piyush();
+=======
+<<<<<<< HEAD
 	
 	public void printName() {
 		System.out.println("Print Raghu");
@@ -29,5 +40,6 @@ public class Hello {
         h.Print_Lokesh();
         l.Print_Lokesh();
 >>>>>>> 0b020f412ef2ae57bf7c839883944da91e9597c5
+>>>>>>> a52fa023ce8f37ad0c74bb6fec138f7bffdc9684
     }
 }
